@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Patitas Felices</title>
+  </head>
+  <body>
+    <header class="header">
+      <p class="header-logo">
+        <a href="../index.html">Patitas Felices</a>
+      </p>
+      <nav class="header-nav">
+        <ul>
+          <li>
+            <a href="../index.html">Inicio</a>
+          </li>
+          <li>
+            <a href="./contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="seccion-contacto">
+        <h1 class="titulo-contacto">Contacto</h1>
+        <form
+          class="form"
+          action="https://formspree.io/f/mzzjjawj"
+          method="POST"
+        >
+
+          <div class="campo-form">
+            <label for="nombre">Nombre:</label>
+            <input id="nombre" name="name"></input>
+          </div>
+
+          <div class="campo-form">
+            <label for="email">Correo:</label>
+            <input id="email" type="email" name="email"/>
+          </div>
+
+          <div class="campo-form">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="message"></textarea>
+          </div>
+
+          <input type="hidden" name="subject" value="Contacto desde el sitio"/>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2025 - Diseñado por: Ailén Peralta</p>
+      <nav>
+        <ul>
+          <li>Instagram</li>
+          <li>Tiktok</li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
