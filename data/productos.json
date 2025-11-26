@@ -1,0 +1,6 @@
+[
+    {"id": "1", "nombre": "Juguete de cuerda", "img": "img/juguete1.jpg", "precio": 1500},
+    {"id": "2", "nombre": "Rascador torre", "img": "img/rascador.jpg","precio": 3000},
+    {"id": "3", "nombre": "Juguete rellenable", "img": "img/kong.jpg", "precio": 4000},
+    {"id": "4", "nombre": "Juguete interactivo", "img": "img/juguete2.jpg", "precio": 5000}
+]

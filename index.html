@@ -19,8 +19,15 @@
       </p>
       <nav class="header-nav">
         <ul>
-          <li><a href="./index.html">Inicio</a></li>
-          <li><a href="./pages/contacto.html">Contacto</a></li>
+          <li>
+            <a href="./index.html">Inicio</a>
+          </li>
+          <li>
+            <a href="./pages/contacto.html">Contacto</a>
+          </li>
+          <li>
+            <a href="./pages/carrito.html" class="carrito-icono">🛒<span id="contador-carrito">0</span></a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -32,32 +39,7 @@
       </p>
       <section class="productos-inicio">
         <h2>Algunos de nuestros productos destacados:</h2>
-
-        <div class="contenedor-tarjetas">
-          <article class="tarjeta-producto">
-            <img src="./img/juguete1.jpg" alt="Juguete de cuerda para perros"/>
-            <h3>Juguete de cuerda</h3>
-            <p>Precio: $1500</p>
-          </article>
-
-          <article class="tarjeta-producto">
-            <img src="./img/rascador.jpg" alt="Rascador tipo torre para gatos"/>
-            <h3>Rascador torre</h3>
-            <p>Precio: $3000</p>
-          </article>
-
-          <article class="tarjeta-producto">
-            <img src="./img/kong.jpg" alt="Juguete rellenable para perros"/>
-            <h3>Juguete rellenable</h3>
-            <p>Precio: $3800</p>
-          </article>
-
-          <article class="tarjeta-producto">
-            <img src="./img/juguete2.jpg" alt="Juguete interactivo para gatos"/>
-            <h3>Juguete interactivo</h3>
-            <p>Precio: $2500</p>
-          </article>
-        </div>
+        <div id="contenedor-tarjetas" class="contenedor-tarjetas"></div>
       </section>
     </main>
 
@@ -70,5 +52,6 @@
         </ul>
       </nav>
     </footer>
+    <script type="module" src="./js/index.js"></script>
   </body>
 </html>

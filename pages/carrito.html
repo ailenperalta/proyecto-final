@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Patitas Felices</title>
+  </head>
+  <body>
+    <header class="header">
+      <p class="header-logo">
+        <a href="../index.html">Patitas Felices</a>
+      </p>
+      <nav class="header-nav">
+        <ul>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="./contacto.html">Contacto</a></li>
+          <li><a href="./carrito.html" class="carrito-icono">🛒<span id="contador-carrito">0</span></a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1 class="titulo-inicio">Carrito de compras</h1>
+      <section id="contenedor-carrito" class="contenedor-carrito">
+      </section>
+      <div class="acciones-carrito" id="acciones-carrito">
+      </div>
+      <section id="resumen-carrito" class="resumen-carrito">
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2025 - Diseñado por: Ailén Peralta</p>
+      <nav>
+        <ul>
+          <li>Instagram</li>
+          <li>Tiktok</li>
+        </ul>
+      </nav>
+    </footer>
+    <script src="../js/carrito.js" type="module"></script>
+  </body>
+</html>
